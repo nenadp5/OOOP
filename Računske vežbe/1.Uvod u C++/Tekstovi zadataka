@@ -1,13 +1,13 @@
-Prvi zadatak: Na programskom jeziku C++ napisati program koji korisniku omogućava da unese 2 cela 
+1. Na programskom jeziku C++ napisati program koji korisniku omogućava da unese 2 cela 
 broja sa standardnog ulaza. Zatim prikazati njihove vrednosti i memorijske adrese na 
 standardnom izlazu. Izračunati i prikazati zbir ta dva broja (na dva načina – direktno i 
 koristeći memorijske adrese tj. pokazivače). 
 
-Drugi zadatak: Modifikovati rešenje prethodnog zadatka tako da se jedan od brojeva nalazi u dinamičkoj 
+2. Modifikovati rešenje prethodnog zadatka tako da se jedan od brojeva nalazi u dinamičkoj 
 zoni memorije.
 
-Treći zadatak: Na programskom jeziku C++ napisati program koji korisniku omogućava da unese veličinu 
+3. Na programskom jeziku C++ napisati program koji korisniku omogućava da unese veličinu 
 niza celih brojeva i elemente tog niza. Prikazati elemente niza, a zatim ih sabrati i prikazati 
 njihovu sumu. 
 
-Četvrti zadatak: Modifikovati rešenje prethodnog zadatka tako da se niz nalazi u dinamičkoj zoni memorije. 
+4. Modifikovati rešenje prethodnog zadatka tako da se niz nalazi u dinamičkoj zoni memorije.
