@@ -1,0 +1,32 @@
+1. Na programskom jeziku C++ kreirati jednu promenljivu, drugu promenljivu kao kopiju 
+vrednosti prve promenljive i treću promenljivu kao referencu na prvu promenljivu. Pratiti 
+kako se prva promenljiva menja sa promenom druge i treće. 
+
+2. Na programskom jeziku C++ napisati funkciju koja računa i vraća zbir dva cela broja. Napisati 
+i funkciju koja inkrementira prosleđeni ceo broj (implementirati 3 varijante ove funkcije sa 
+prosleđivanjem broja na različite načine). U glavnom programu isprobati sve ove funkcije. 
+
+3. Na programskom jeziku C++ napisati sledeće funkcije za rad sa celobrojnim nizovima:
+funkciju koja računa zbir svih elemenata prosleđenog niza;
+- funkciju koja prikazuje na standardnom izlazu sve elemente prosleđenog niza;
+- funkciju koja nalazi i vraća najveći element prosleđenog niza;
+- funkciju koja inkrementira svaki element niza.
+U funkciji main sa standardnog ulaza uneti niz celobrojnih elemenata proizvoljne dužine. 
+Zatim prikazati taj niz, zbir njegovih elemenata i najveći element niza. Inkrementirati sve 
+elemente niza pa prikazati rezultujući niz. 
+
+4. Na programskom jeziku C++ kreirati strukturu student koja sadrži sledeće atribute:
+- ime,
+- prezime, 
+- broj indeksa,
+- broj poena na pismenom ispitu,
+- broj poena na usmenom ispitu,
+- konačnu ocenu. 
+Napisati i sledeće funkcije za rad sa strukturom student:
+- funkciju za unos svih atributa strukture student sa standardnog ulaza;
+- funkciju za prikaz svih atributa strukture student na standardnom izlazu;
+- funkciju koja računa ocenu za prosleđenog studenta na osnovu poena sa pismenog i usmenog ispita;
+- funkciju koja uređuje studente u prosleđenom nizu u opadajući redosled po ocenama. 
+U funkciji main sa standardnog ulaza uneti niz elemenata strukture student proizvoljne 
+dužine. Zatim za sve studente u nizu izračunati ocenu, sortirati niz i prikazati sve elemente 
+niza na standardnom izlazu. 
