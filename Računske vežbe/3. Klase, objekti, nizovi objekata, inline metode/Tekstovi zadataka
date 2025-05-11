@@ -1,0 +1,28 @@
+1. Na programskom jeziku C++ kreira klasu Tacka koja predstavlja tačku u 2D koordinatnom 
+sistemu. Klasa sadrži privatne atribute X i Y koordinatu. U javnom delu klasa sadrži:
+ • metode koje postavljaju X i Y koordinatu tačke;
+ • inline metode koje vraćaju X i Y koordinatu tačke;
+ • metodu koja pomera tekuću tačku za zada pomeraj;
+ • metodu koja računa rastojanje između tekuće tačke i druge prosleđene tačke.
+ Napisa i 3 varijante main funkcije: 
+• main funkciju u kojoj korisnik unosi 2 tačke (jedna se čuva u sta čkoj, druga u 
+dinamičkoj zoni memorije), tačke se pomeraju za neki konstantni pomeraj i prikazuje se 
+rastojanje između njih; 
+• main funkciju u kojoj korisnik unosi niz tačaka (niz se čuva u sta čkoj zoni memorije), 
+računa se i prikazuje dužina izlomljene linije od prve do poslednje tačke; 
+• main funkciju u kojoj korisnik unosi niz tačaka (niz se čuva u dinamičkoj zoni memorije), 
+računa se i prikazuje dužina izlomljene linije od prve do poslednje tačke.
+ 
+2. Na programskom jeziku C++ kreira klasu Student koja sadrži sledeće atribute:
+ • ime,
+ • prezime, 
+ • broj indeksa,
+ • broj poena na pismenom ispitu,
+ • broj poena na usmenom ispitu. 
+Napisa i sledeće javne metode članice klase Student:
+ • metodu za unos svih atributa klase Student sa standardnog ulaza;
+ • metodu za prikaz svih atributa klase Student na standardnom izlazu;
+ • metodu koja računa i vraća ocenu za tekući objekat Student na osnovu poena sa 
+pismenog i usmenog ispita. 
+U main metodi sa standardnog ulaza une niz elemenata klase Student. Zam pronaći
+ studenta sa najvećom ocenom u nizu i prikaza podatke o njemu. 
