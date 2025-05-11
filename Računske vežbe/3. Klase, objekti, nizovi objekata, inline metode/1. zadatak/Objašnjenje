@@ -1,0 +1,3 @@
+Prvo se kreira i programira fajl "Tacka.h" jer on predstavlja header fajl;
+Nakon toga se kreira i programira fajl "Tacka.cpp" on predstavlja standardni C++ fajl, gde definišemo šta obavljaju metode iz header fajla;
+Nakon odradjenih Header i CPP fajla, sledi fajl za glavni program, u ovom slučaju ih ima tri ("Main1.cpp","Main2.cpp","Main3.cpp"), jer je tako glasio tekst zadatka.
