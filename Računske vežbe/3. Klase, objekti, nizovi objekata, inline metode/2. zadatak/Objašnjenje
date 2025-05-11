@@ -1,0 +1,3 @@
+Prvo se kreira i programira fajl "Student.cpp" koji predstavlja Header fajl, gde se nalaze svi podaci o traženoj klasi;
+Nakon toga se kreira i programira fajl "Student.cpp", koji predstavlja klasičan C++ fajl, gde se definiše šta obavljaju tražene metode;
+Kao završni fajl u ovom slučaju je "Source.cpp" gde se obavljaju sve operacije koje su tražene u okviru zadatka.
