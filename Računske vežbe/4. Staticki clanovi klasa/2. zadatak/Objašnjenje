@@ -1,0 +1,22 @@
+Ukoliko nam je metoda definisana sa (char* naziv) onda se omogućava funkciji da menja sadržaj prosledjenog niza karaktera.
+Ukoliko nam je metoda definisana sa (const char* naziv) onda se ne dozvoljava funkciji da izvrši promenu prosledjenog niza karaktera.
+
+Slučaj kada imamo void postaviNaziv(char* naziv):
+Situacija u glavnom programu je sledeća:
+int main(){
+  char str[]="Test";
+  postaviNaziv(str); //ovo se dozvoljava, jer je str niz karaktera u promenljivoj memoriji
+  postaviNaziv("Nesto"); //ovo predstavlja grešku, string je u ovom slučaju literal koji je konstantan
+}
+
+Slučaj kada imamo void postaviNaziv(const char* naziv):
+Situacija u glavnom programu je sledeća:
+int main(){
+  postaviNaziv("Nesto"); //Ovo se dozvoljava, jer je string u ovom slučaju konstantni liter
+  postaviNaziv(str); //Ovo se u ovom slucaju ne preporučuje
+}
+
+Objašnjenje za fajlove:
+Prvo se kreira i programira fajl "Vozilo.h" jer on predstavlja header fajl;
+Nakon toga se kreira i programira fajl "Vozilo.cpp" on predstavlja standardni C++ fajl, gde definišemo šta obavljaju metode iz header fajla;
+Nakon odradjenih Header i CPP fajla, sledi fajl za glavni program.
