@@ -1,0 +1,46 @@
+1. Na programskom jeziku C++ kreirati klasu Tacka koja predstavlja tačku u 2D koordinatnom 
+sistemu. Klasa sadrži privatne atribute X i Y koordinatu. U javnom delu klasa sadrži:
+- konstruktor koji postavlja X i Y koordinatu tačke;
+- podrazumevani konstruktor;
+- konstruktor za kopiranje;
+- destruktor;
+- funkcije koje postavljaju X i Y koordinatu tačke;
+- funkciju koja pomera tekuću tačku za zadati pomeraj;
+- funkciju koja računa rastojanje između tekuće tačke i druge prosleđene tačke.
+Napisati i 3 varijante main funkcije: 
+- Funkciju u kojoj korisnik unosi 2 tačke (jedna se čuva u statičkoj, druga u dinamičkoj zoni 
+memorije), tačke se pomeraju za neki konstantni pomeraj i prikazuje se rastojanje 
+između njih. 
+- Funkciju u kojoj korisnik unosi niz tačaka (niz se čuva u statičkoj zoni memorije), računa 
+se i prikazuje dužina izlomljene linije od prve do poslednje tačke. 
+- Funkciju u kojoj korisnik unosi niz tačaka (niz se čuva u dinamičkoj zoni memorije), 
+računa se i prikazuje dužina izlomljene linije od prve do poslednje tačke. 
+
+2. Na programskom jeziku C++ kreirati klasu Knjiga koja sadrži sledeće atribute:
+- naslov (u dinamičkoj zoni memorije),
+- ime autora (u dinamičkoj zoni memorije), 
+- godinu izdanja,
+- troslovni kod zemlje izdanja,
+- redni broj izdanja. 
+Napisati i sledeće javne metode članice klase Knjiga:
+- konstruktor koji postavlja sve atribute klase;
+- konstruktor za kopiranje;
+- metodu koja vraća da li je knjiga pod zaštitom države (knjiga je pod zaštitom ako je 
+štampana u Srbiji pre 1900. godine);
+- metodu koja kreira i vraća naredno izdanje knjige;
+- metodu za prikaz svih atributa klase Knjiga na standardnom izlazu;
+- inline metodu koja vraća ime autora. 
+U funkciji main omogućiti korisniku da sa standardnog ulaza unese podatke o jednoj knjizi,
+prikazati te podatke, kreirati naredno izdanje te knjige i prikazati podatke o narednom
+izdanju. 
+
+3. Dopuniti prethodni primer klasom Biblioteka koja sadrži sledeće privatne atribute:
+- niz od najviše 100 pokazivača na knjige,
+- trenutni broj knjiga u biblioteci. 
+Napisati i sledeće javne metode članice klase Biblioteka:
+- podrazumevani konstruktor;
+- metodu koja dodaje postojeću knjigu u biblioteku;
+- metodu za prikaz svih atributa klase Biblioteka na standardnom izlazu;
+- metodu koja uređuje knjige u biblioteci po imenu autora. 
+U funkciji main omogućiti korisniku da sa standardnog ulaza unese podatke o više knjiga,
+dodati te knjige u biblioteku, prikazati sadržaj biblioteke, urediti knjige pa opet prikazati sadržaj biblioteke. 
