@@ -1,0 +1,3 @@
+Prvo se kreira i programira fajl "Knjiga.h" jer on predstavlja header fajl;
+Nakon toga se kreira i programira fajl "Knjiga.cpp" on predstavlja standardni C++ fajl, gde definišemo šta obavljaju metode, konstruktori i destrktori iz header fajla;
+Nakon odradjenih Header i CPP fajla, sledi glavni fajl pod nazivom "Main.cpp" gde se povezuju sve metode i konstruktori iz Knjiga.cpp fajla.
