@@ -1,0 +1,3 @@
+Prvo kreiramo fajl "Complex.h" koji predstavlja HEADER fajl i u koji uvodimo sve atribute, metode i konstruktore koje kasnije definišemo;
+Nakon toga kreiramo fajl "Complex.cpp" koji predstavlja CPP fajl, gde definišemo sve metode i konstruktore šta će obavljati;
+Na kraju kreiramo "Main.cpp" koji se smatra izvršnim CPP fajlom, i u kojem isprobavamo sve metode.
