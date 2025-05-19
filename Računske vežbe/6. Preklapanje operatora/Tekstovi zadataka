@@ -1,0 +1,24 @@
+ 1. Na programskom jeziku C++ kreira klasu Complex koja predstavlja kompleksni broj. Klasa 
+sadrži privatne atribute realni i imaginarni deo kompleksnog broja. U javnom delu klasa 
+sadrži:
+ • konstruktor koji postavlja realni i imaginarni deo broja;
+ • konstruktor za kopiranje;
+ • funkciju za prikaz kompleksnog broja na standardnom izlazu;
+ • funkciju koja računa moduo kompleksnog broja;
+ • operatorske funkcije +, *, ++ (prefiksni i pos iksni), <, >, == i = (operator dodele). 
+U funkciji main omogući korisniku da sa standardnog ulaza unese dva kompleksna broja i
+ nad njima isproba kreirane operatorske funkcije.
+ 
+2. Na programskom jeziku C++ kreira klasu Vektor koja predstavlja vektor u višedimenzionom 
+prostoru. Klasa sadrži privatne atribute dimenzionalnost prostora (broj elemenata vektora) i 
+niz u dinamičkoj zoni memorije koji sadrži elemente vektora. U javnom delu klasa sadrži:
+ • konstruktor koji postavlja broj elemenata vektora;
+ • konstruktor za kopiranje;
+ • podrazumevani konstruktor;
+ • destruktor;
+ • operatorske funkcije + (funkcija koja sabira vektor sa drugim vektorom i vektror sa 
+skalarnom vrednošću), ++ (prefiksni i pos iksni) i = (operator dodele);
+ • prijateljske operatorske funkcije + (funkcija koja sabira skalarnu vrednost sa vektorom i 
+vraća novi vektor), << i >>. 
+U funkciji main omogući korisniku da sa standardnog ulaza unese dva vektora i nad njima
+ isproba kreirane operatorske funkcije.
