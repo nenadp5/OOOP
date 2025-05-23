@@ -4,4 +4,4 @@ Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Automobil.h" kod kojeg d
 Onda sledi kreiranje CPP fajla "Automobil.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Automobil.h";
 Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
 
-U ovom slucaju nam nije striktno receno koji su elementi klase "Automobil" vec moramo sami da zakljucimo na osnovu podataka iz klase "Parking".
+U ovom slucaju nam nije striktno rečeno koji su elementi klase "Automobil" vec moramo sami da zaključimo na osnovu podataka iz klase "Parking".
