@@ -1,0 +1,5 @@
+Prvo smo kreirali fajl "Film.h" koji predstavlja HEADER fajl, gde uvodimo sve neophodne atribute, metode, konstruktore i destruktore za tu klasu;
+Potom kreiramo CPP fajl "Film.cpp" gde definišemo sve elemente iz klase "Film.h";
+Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Bioskop.h" u koji uvodimo i fajl "Film.h" uz dodatne metode, konstruktore, destruktore i atribute;
+Onda sledi kreiranje CPP fajla "Bioskop.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Bioskop.h", u okviru ovog fajla možemo pozivati i metode iz klase "Film.h";
+Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
