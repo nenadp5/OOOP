@@ -1,8 +1,8 @@
 Ovaj zadatak predstavlja nadogradnju prethondnog zadatka uz totalnu promenu Main.cpp fajla.
 Prvo smo kreirali fajl "Knjiga.h" koji predstavlja HEADER fajl, gde uvodimo sve neophodne atribute, metode, konstruktore i destruktore za tu klasu;
 Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Biblioteka.h" u koji uvodimo i fajl "Knjiga.h" uz dodatne metode, konstruktore, destruktore i atribute;
-Potom kreiramo CPP fajl "Knjiga.cpp" gde definišemo sve elemente iz klase "Knjiga.cpp";
-Onda sledi kreiranje CPP fajla "Biblioteka.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Biblioteka.h", u okviru ovog fajla možemo pozivati i metode iz klase "Knjiga.cpp";
+Potom kreiramo CPP fajl "Knjiga.cpp" gde definišemo sve elemente iz klase "Knjiga.h";
+Onda sledi kreiranje CPP fajla "Biblioteka.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Biblioteka.h", u okviru ovog fajla možemo pozivati i metode iz klase "Knjiga.h";
 Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
 
 Fajlovi "Knjiga.h" i "Knjiga.cpp" su skroz isti kao u prethodnom zadataku, dok se ostali fajlovi razlikuju.
