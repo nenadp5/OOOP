@@ -1,0 +1,28 @@
+1. Na programskom jeziku C++ kreirati klasu Film za predstavljanje filmske projekcije u bioskopu koja od privatnih atributa sadrži naziv, sat početka projekcije (vrednost od 0 do 23), minut početka projekcije (vrednost od 0 do 59) i dužinu trajanja filma u minutima. Naziv se čuva u dinamičkoj zoni memorije. U javnom delu klasa sadrži:
+•	konstruktor koji postavlja sve atribute,
+•	destruktor,
+•	inline funkciju koja vraća trajanje filma,
+•	operatorsku funkciju < koja poredi tekući objekat sa drugim prosleđenim filmom po vremenu početka projekcije (ako tekući film počinje ranije nego prosleđeni funkcija vraća true),
+•	operatorsku funkciju za dodelu =.
+Klasa ima i:
+• prijateljsku operatorsku funkciju << koja na standardnom izlazu prikazuje naziv, vreme početka i vreme kraja filma.
+Zatim kreirati klasu Bioskop koja od privatnih atributa ima naziv, niz pokazivača na filmove (pretpostaviti da niz sadrži filmove koji se prikazuju samo u toku jednog dana i da ih može biti najviše 20) i trenutni broj filmova u nizu. Naziv se čuva u dinamičkoj zoni memorije. U javnom delu klasa sadrži:
+•	podrazumevani konstruktor,
+•	konstruktor koji postavlja naziv,
+•	destruktor,
+•	operatorsku funkciju + koja dodaje postojeći film u niz,
+•	funkciju koja uređuje filmove u bioskopu po vremenu početka projekcije,
+•	funkciju koja vraća film sa najdužim trajanjem.
+Klasa ima i:
+• prijateljsku operatorsku funkciju << koja na standardnom izlazu prikazuje sve informacije o bioskopu (naziv, spisak filmova kao i film sa najdužim trajanjem).
+U glavnom programu napraviti objekat klase Bioskop, 3 objekta klase Film i dodati filmove u bioskop. Na standardnom izlazu prikazati sve podatke o bioskopu, zatim sortirati filmove u bioskopu i ponovo prikazati podatke o bioskopu. Izračunati i prikazati prosečno trajanje filma u bioskopu.
+
+
+2. Na programskom jeziku C++ kreirati klasu Parking koja sadrži adresu parkinga, niz pokazivača na objekte tipa Automobil i trenutni broj automobila. Pretpostaviti da je kapacitet parkinga 50 vozila. Od javnih članova klasa sadrži:
+•	podrazumevani konstruktor,
+•	konstruktor koji postavlja adresu,
+•	operator += koji dodaje postojeći Automobil u niz,
+•	metodu koja vraća broj automobila novijih od navedenog godišta (parametar metode), 
+•	metodu koja vraća najskuplji automobil,
+•	operator << koji štampa informacije o parkingu (adresu, spisak automobila kao i najskuplji automobil).
+Zatim napraviti klasu Automobil koja sadrži sve potrebne atribute, funkcije i operatore. U glavnom programu napraviti parking i 4 automobila. Zatim dodati te automobile na parking i testirati sve funkcije.
