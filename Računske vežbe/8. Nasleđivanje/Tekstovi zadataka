@@ -1,0 +1,43 @@
+1. Na programskom jeziku C++ kreirati klasu Krug koja od privatnih atributa sadrži poluprečnik.
+U javnom delu klasa sadrži:
+• podrazumevani konstruktor,
+• konstruktor koji postavlja poluprečnik,
+• destruktor,
+• funkciju za izračunavanje površine,
+• funkciju za izračunavanje obima,
+• funkciju koja na standardnom izlazu prikazuje poluprečnik, obim i površinu.
+Zatim kreirati klasu ObojeniKrug koja je izvedena iz klase Krug i od privatnih atributa ima R,
+G i B vrednosti. U javnom delu klasa sadrži:
+• podrazumevani konstruktor,
+• konstruktor koji postavlja poluprečnik kruga i sve tri komponente boje,
+• destruktor,
+• inline funkciju koja prikazuje sve informacije na standardni izlaz.
+Zatim kreirati klasu PlaviKrug koja je izvedena iz klase ObojeniKrug. U javnom delu klasa
+sadrži:
+• podrazumevani konstruktor,
+• konstruktor koji postavlja poluprečnik kruga i plavu komponentu boje,
+• destruktor.
+U glavnom programu napraviti objekte klase Krug, ObojeniKrug i PlaviKrug u statičkoj zoni
+memorije korišćenjem prvo podrazumevanog konstruktora, a kasnije i korišćenjem
+konstruktora sa parametrima. Nakon toga, kreirati i objekte u dinamičkoj zoni memorije. Na
+standardnom izlazu prikazati sve podatke o krugovima.
+
+2. Na programskom jeziku C++ kreirati klasu Vozilo koja od privatnih atributa sadrži brzinu i
+stanje rezervoara. U zaštićenom delu klasa sadrži:
+• funkciju za povećanje dotoka goriva,
+• funkciju za aktiviranje sistema kočenja.
+U javnom delu klasa sadrži:
+• podrazumevani konstruktor,
+• funkciju za ubrzavanje,
+• funkciju za usporavanje.
+Zatim kreirati klasu Avion koja je izvedena iz klase Vozilo i od privatnih atributa sadrži visinu i
+maksimalnu visinu. U javnom delu klasa sadrži:
+• konstruktor koji postavlja vrednost maksimalne visine,
+• funkciju koja povećava visinu,
+• funkciju koja smanjuje visinu.
+Zatim kreirati klasu Kamion koja je izvedena iz klase Vozilo koja od privatnih atributa sadrži
+masu tereta i nosivost. U javnom delu klasa sadrži:
+• konstruktor koji postavlja vrednost nosivosti,
+• funkciju koja dodaje teret,
+• funkciju koja uklanja teret.
+U glavnom programu napraviti objekte tipa Avion i Kamion i pozvati sve metode
