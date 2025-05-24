@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "Vozilo.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Vozilo.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Vozilo.h";
+Kreiramo HEADER fajl "Avion.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Vozilo.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Avion.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Avion.h" i možemo pozivati metode iz klase "Vozilo.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "Kamion.h", gde je prisutna istoimena klasa koja je izvedena iz klase "Vozilo.h". U klasi "Kamion.h" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "Kamion.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "Vozilo.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
