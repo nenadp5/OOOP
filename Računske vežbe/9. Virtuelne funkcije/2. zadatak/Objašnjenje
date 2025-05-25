@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "Student.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Student.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Student.h";
+Kreiramo HEADER fajl "StudentOsnovnihStudija.h" gde formiramo klasu "StudentOsnovnih" koja je izvedena iz klase "Student.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "StudentOsnovnihStudija.cpp" u kojem definišemo sve neophodne vrednosti iz klase "StudentOsnovnihStudija.h" i možemo pozivati metode iz klase "Student.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "StudentDoktorskihStudija.h", gde je prisutna klasa "StudentDoktorskih" koja je izvedena iz klase "Student.h". U klasi "StudentDoktorskih" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "StudentDoktorskihStudija.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "Student.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
