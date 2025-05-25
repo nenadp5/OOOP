@@ -1,0 +1,5 @@
+Prvo se kreira HEADER fajl "Krug.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Krug.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Krug.h";
+Kreiramo HEADER fajl "Valjak.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Krug.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Valjak.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Valjak.h" i možemo pozivati metode iz klase "Krug.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
