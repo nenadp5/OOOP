@@ -1,0 +1,42 @@
+1. Na programskom jeziku C++ kreirati klasu Krug koja sadrži zaštićeni atribut poluprečnik. U
+javnom delu klasa sadrži:
+• konstruktor koji postavlja poluprečnik;
+• konstruktor za kopiranje;
+• funkciju koja računa površinu kruga;
+• virtualnu funkciju za prikaz podataka o krugu na standardnom izlazu.
+Iz klase Krug javno izvesti klasu Valjak koja sadrži privatni atribut visinu. U javnom delu
+klasa sadrži:
+• konstruktor koji postavlja poluprečnik i visinu;
+• konstruktor za kopiranje;
+• funkciju koja računa površinu valjka;
+• funkciju koja računa zapreminu valjka;
+• funkciju za prikaz podataka o valjku na standardnom izlazu.
+U funkciji main kreirati krug i valjak i prikazati podatke o njima.
+
+2. Na programskom jeziku C++ kreirati klasu Student koja sadrži zaštićene atribute ime,
+prezime, broj indeksa, niz ocena (u dinamičkoj zoni memorije), maksimalni broj ispita
+(kapacitet niza) i broj položenih ispita (trenutni broj ocena u nizu). U javnom delu klasa
+sadrži:
+• podrazumevani konstruktor;
+• konstruktor koji postavlja atribute;
+• virtualni destruktor;
+• funkciju koja dodaje ocenu sa položenog ispita u niz;
+• funkciju koja vraća prosečnu ocenu studenta;
+• virtualnu funkciju za prikaz podataka o studentu na standardnom izlazu.
+Iz klase Student javno izvesti klasu StudentOsnovnih(Studija) koja sadrži privatni atribut
+godinu studija. U javnom delu klasa sadrži:
+• podrazumevani konstruktor;
+• konstruktor koji postavlja atribute;
+• destruktor;
+• funkciju koja vraća broj položenih ispita po godini;
+• funkciju za upis naredne godine;
+• predefinisanu funkciju za prikaz podataka na standardnom izlazu.
+Iz klase Student javno izvesti klasu StudentDoktorskih(Studija) koja sadrži privatni atribut
+oblast istraživanja (u dinamičkoj zoni memorije). U javnom delu klasa sadrži:
+• podrazumevani konstruktor;
+• konstruktor koji postavlja atribute;
+• destruktor;
+• funkciju koja postavlja oblast istraživanja;
+• predefinisanu funkciju za prikaz podataka na standardnom izlazu.
+U funkciji main kreirati niz od 3 pokazivača na objekte tipa student, dodati po jedan objekat
+od svakog tipa i prikazati podatke o njima. 
