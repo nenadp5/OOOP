@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "GeometrijskaFigura.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "GeometrijskaFigura.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "GeometrijskaFigura.h";
+Kreiramo HEADER fajl "Krug.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Krug.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Krug.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Krug.h" i možemo pozivati metode iz klase "GeometrijskaFigura.h";
+U zadatku se trazi jos jedan HEADER fajl, pa shodno tome kreiramo "Kvadrat.h", i tu deklarišemo atribute, metode i konstruktore koji su namenjeni za tu klasu;
+Čim imamo kreiran HEADER fajl, moramo kreirati još jedan CPP fajl pod nazivom "Kvadrat.cpp" i tu definisati šta obavljaju metode i konstruktori iz istoimene klase;
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
