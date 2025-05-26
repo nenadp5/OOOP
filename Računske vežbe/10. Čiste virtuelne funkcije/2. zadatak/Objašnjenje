@@ -1,0 +1,9 @@
+Prvo se kreira HEADER fajl "KompleksniBroj.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "KompleksniBroj.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "KompleksniBroj.h";
+Kreiramo HEADER fajl "DekartovKompleksniBroj.h" gde formiramo klasu "DekartovKompleksniBroj" koja je izvedena iz klase "KompleksniBroj.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "DekartovKompleksniBroj.cpp" u kojem definišemo sve neophodne vrednosti iz klase "DekartovKompleksniBroj.h" i možemo pozivati metode iz klase "KompleksniBroj.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "PolarniKompleksniBroj.h", gde je prisutna klasa "PolarniKompleksniBroj" koja je izvedena iz klase "KompleksniBroj.h". U klasi "PolarniKompleksniBroj" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "PolarniKompleksniBroj.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "KompleksniBroj.h";
+Ovde je potrebno kreiranje još jednog HEADER fajla, za poslednju klasu "Kolekcija.h", koja nije izvedena iz prethodnih klasa, ali koristi njihove elemente;
+Budući da smo kreirali klasu, potrebno je da kreiramo i CPP fajl "Kolekcija.cpp" gde se definišu sve metode i konstruktori iz klase "Kolekcija.h"
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
