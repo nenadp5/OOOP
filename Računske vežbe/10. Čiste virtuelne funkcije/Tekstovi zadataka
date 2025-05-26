@@ -1,0 +1,42 @@
+1. Na programskom jeziku C++ kreirati apstraktnu klasu GeometrijskaFigura koja sadrži 
+privatni atribut naziv figure u dinamičkoj zoni memorije. U javnom delu klasa sadrži: 
+• konstruktor koji postavlja naziv; 
+• destruktor; 
+• čistu virtualnu funkciju koja računa površinu figure; 
+• čistu virtualnu funkciju koja računa obim figure; 
+• virtualnu funkciju za prikaz podataka o figuri na standardnom izlazu, 
+• operatorsku funkciju > za poređenje tekuće i prosleđene figure po površini.  
+Iz klase GeometrijskaFigura javno izvesti klasu Krug koja sadrži privatni atribut 
+poluprečnik. U javnom delu klasa sadrži: 
+• konstruktor koji postavlja poluprečnik; 
+• predefinisanu funkciju za prikaz podataka o krugu na standardnom izlazu.  
+Iz klase GeometrijskaFigura javno izvesti klasu Kvadrat koja sadrži privatni atribut 
+stranicu kvadrata. U javnom delu klasa sadrži: 
+• konstruktor koji postavlja stranicu; 
+• predefinisanu funkciju za prikaz podataka o kvadratu na standardnom izlazu.  
+U funkciji main omogućiti korisniku da u niz figura unese krugove na parnim pozicijama i 
+kvadrate na neparnim pa prikazati podatke o svim figurama iz niza.  
+
+2. Na programskom jeziku C++ kreirati apstraktnu klasu KompleksniBroj koja sadrži sledeće 
+članove: 
+• zaštićenu čisto virtualnu funkciju koja vraća moduo kompleksnog broja; 
+• javnu čisto virtualnu funkciju za prikaz svih atributa izvedenih klasa na standardnom 
+izlazu; 
+• javnu operatorsku funkciju > za poredjenje tekućeg kompleksnog broja i drugog 
+prosleđenog kompleksnog broja po modulu. 
+Iz klase KompleksniBroj javno izvesti klasu DekartovKompleksniBroj koja sadrži: 
+• privatne atribute za predstavljanje realnog i imaginarnog dela broja; 
+• javni konstruktor koji postavlja vrednosti svih atributa.   
+Iz klase KompleksniBroj javno izvesti klasu PolarniKompleksniBroj koja sadrži: 
+• privatne atribute za predstavljanje modula i ugla kompleksnog broja; 
+• javni konstruktor koji postavlja vrednosti svih atributa.  
+Zatim kreirati klasu Kolekcija koja sadrži: 
+• privatni atribut niz pokazivača na kompleksne brojeve (fiksnog kapaciteta od npr. 100 
+elemenata); 
+• privatni atribut trenutni broj elemenata u nizu; 
+• javni podrazumevani konstruktor; 
+• javnu funkciju za dodavanje novog kompleksnog broja u niz; 
+• javnu funkciju za sortiranje kompleksnih brojeva po broju modulu; 
+• javnu funkciju za prikaz podataka o svim kompleksnim brojevima na standardnom izlazu.  
+U glavnom programu napraviti kolekciju sa 3 Dekartova i 3 polarna kompleksna broja. 
+Prikazati takvu kolekciju, sortirati je i ponovo prikazati.  
