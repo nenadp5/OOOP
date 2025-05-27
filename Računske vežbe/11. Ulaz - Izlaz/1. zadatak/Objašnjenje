@@ -1,0 +1,4 @@
+Prvo kreiramo HEADER fajl "Vektor.h" sa istoimenom klasom, u kojoj deklarišemo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Vektor.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodne klase;
+Nakon toga kreiramo glavi CPP fajl gde se kombinuju sve metode i konstruktori vezani za ovaj zadatak;
+Bitno je napomenuti, da tekstualne i binarne fajlove trebamo imati već unapred kreirane! Takodje moraju da nose naziv koji je prisutan i namenjen za njih u okviru "Main.cpp" fajla!
