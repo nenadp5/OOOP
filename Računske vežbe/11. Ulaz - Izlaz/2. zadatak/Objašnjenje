@@ -1,0 +1,6 @@
+Prvo smo kreirali fajl "Student.h" koji predstavlja HEADER fajl, gde uvodimo sve neophodne atribute, metode, konstruktore i destruktore za tu klasu;
+Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Ucionica.h" u koji uvodimo i fajl "Student.h" uz dodatne metode, konstruktore, destruktore i atribute;
+Potom kreiramo CPP fajl "Student.cpp" gde definišemo sve elemente iz klase "Student.h";
+Onda sledi kreiranje CPP fajla "Ucionica.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Ucionica.h", u okviru ovog fajla možemo pozivati i metode iz klase "Student.h";
+Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
+Bitno je napomenuti, da tekstualne i binarne fajlove trebamo imati već unapred kreirane! Takodje moraju da nose naziv koji je prisutan i namenjen za njih u okviru "Main.cpp" fajla!
