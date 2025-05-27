@@ -1,0 +1,25 @@
+1. Na programskom jeziku C++ kreirati klasu Vektor koja sadrži privatne atribute niz 
+celobrojnih elemenata u dinamičkoj zoni memorije i broj elemenata u nizu. U javnom delu 
+klasa sadrži: 
+ podrazumevani konstruktor; 
+ konstruktor koji zauzima mesto za maksmalan broj elemenata; 
+ destruktor; 
+ funkcije za tekstualni ulaz/izlaz; 
+ funkcije za binarni ulaz/izlaz; 
+ prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.  
+U funkciji main isprobati funkcije iz klase Vektor.  
+
+2. Na programskom jeziku C++ kreirati klasu Student koja sadrži privatne atribute ime, prezime 
+i broj indeksa. U javnom delu klasa sadrži: 
+ podrazumevani konstruktor; 
+ konstruktor koji postavlja naziv; 
+ funkcije za binarni ulaz/izlaz; 
+ prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.  
+Zatim kreirati klasu Ucionica koja sadrži privatne atribute niz studenata u dinamičkoj zoni 
+memorije i broj studenata u nizu. U javnom delu klasa sadrži: 
+ podrazumevani konstruktor; 
+ konstruktor koji postavlja broj studenata u nizu; 
+ destruktor; 
+ funkcije za binarni ulaz/izlaz; 
+ prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.  
+U glavnom programu isprobati funkcije iz klase Ucionica. 
