@@ -1,0 +1,10 @@
+Prvo se kreira HEADER fajl "Student.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Student.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Student.h";
+Kreiramo HEADER fajl "Brucos.h" gde formiramo klasu "Brucos" koja je izvedena iz klase "Student.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Brucos.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Brucos.h" i možemo pozivati metode iz klase "Student.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "StudentViseGodine.h", gde je prisutna klasa "StudentViseGodine" koja je izvedena iz klase "Student.h". U klasi "StudentViseGodine" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "StudentViseGodine.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "Student.h";
+Ovde je potrebno kreiranje još jednog HEADER fajla, za poslednju klasu "Konkurs.h", koja nije izvedena iz prethodnih klasa, ali koristi njihove elemente;
+Budući da smo kreirali klasu, potrebno je da kreiramo i CPP fajl "Konkurs.cpp" gde se definišu sve metode i konstruktori iz klase "Konkurs.h"
+Na kraju kreiramo dva CPP fajla. Fajl "Main1.cpp" je ono što je traženo u samom zadatku, gde su primenjene osnovne metode i konstruktori iz klasa;
+Fajl "Main2.cpp" predstavlja automatizaciju glavnog programa, gde korisnik moze da unosi veci broj studenata (naravno do ogranicenog broja koji je naglasen u tekstu zadatka). Ovaj fajl je nastao čisto kao vežba zbog WHILE petlje.
