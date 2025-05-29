@@ -1,0 +1,47 @@
+Zadatak 1. (23.1.2015.) Na programskom jeziku C++ kreirati klasu Radnik koja pamti ime i prezime radnika, jmbg i
+platu. Takođe, svaki radnik mora da ima i svog šefa. Od javnih metoda sadrži konstruktor koji postavlja sve atribute,
+funkciju koja štampa informacije o radniku, funkciju koja postavlja platu, funkciju koja vraća vrednost plate radnika,
+kao i funkciju koja postavlja šefa tom radniku.
+Zatim javno izvesti klasu Šef iz klase Radnik. Šef može i ne mora da ima svog šefa. Klasa Šef treba da sadrži javnu
+metodu koja postavlja platu navedenom radniku (proslediti postojeći objekat klase Radnik).
+Klasa Firma sadrži niz radnih mesta (može biti prazno ili da ukazuje na radnika). Od javnih članova ima:
+ funkciju koja nalazi radnika (koji je pod nadzorom tog šefa) sa najvećom platom,
+ funkciju koja vraća sumu plata svih radnika
+ funkciju koja nalazi direktora
+U funkciji main kreirati hierarhiju kao po šablonu i odštampati direktora, radnika sa najvećom platom i sumu svih plata u firmi.
+Šablon: 
+1. Direktor
+  1.1. Šef prodaje
+    1.1.1 Radnik 1
+    1.1.2. Radnik 2
+    1.1.3. Radnik 3
+  1.2 Šef proizvodnje
+    1.2.1 Radnik 4
+    1.2.2. Radnik 5
+
+Zadatak 2. (15.1.2016.) Na programskom jeziku C++ implementirati aplikaciju za bodovanje i rangiranje studenta na
+konkursu za stipendiju.
+Kreirati apstraktnu klasu Student koja sadrži sledeće članove:
+ privatne atribute ime, prezime i broj indeksa;
+ javni konstruktor koji postavlja vrednosti navedenih atributa;
+ zaštićenu čisto virtualnu funkciju koja računa broj bodova za studenta;
+ javnu funkciju za prikaz podataka o studentu na standardnom izlazu (prikazuju se ime, prezime,
+broj indeksa i broj bodova);
+ javnu operatorsku funkciju < za poredjenje tekućeg studenta i drugog prosleđenog studenta po
+broju bodova.
+Iz klase Student javno izvesti klasu Brucos koja sadrži privatni atribut za predstavljanje prosečne ocene iz srednje
+škole i javni konstruktor koji postavlja sve atribute klase. Broj bodova se računa po formuli 8 * ocenaIzSrednje.
+Iz klase Student javno izvesti klasu StudentViseGodine (za predstavljanje podataka o studentima 2, 3 ili 4 godine
+osnovnih studija) koja sadrži privatne atribute za predstavljanje prosečne ocene, godine studija i broja zaostalih ispita
+i javni konstruktor koji postavlja sve atribute klase. Broj bodova se računa po formuli
+4 * prosecnaOcena + 2 * godinaStudija - 2 * zaostaliIspiti.
+Zatim kreirati klasu Konkurs koja sadrži:
+ privatni atribut niz pokazivača na studente (fiksnog kapaciteta od npr. 100 elemenata);
+ privatni atribut trenutni broj studenata u nizu;
+ javni podrazumevani konstruktor;
+ destruktor;
+ javnu funkciju za dodavanje novog studenta u niz;
+ javnu funkciju za sortiranje studenata po broju bodova;
+ javnu funkciju za za prikaz podataka o svim studentima na standardnom izlazu.
+U glavnom programu napraviti konkurs sa 2 brucoša i 4 studenta viših godina. Sortirati i odštampati rezultate
+konkursa. 
