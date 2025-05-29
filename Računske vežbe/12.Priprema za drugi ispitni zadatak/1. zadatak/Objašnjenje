@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "Radnik.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Radnik.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Radnik.h";
+Kreiramo HEADER fajl "Sef.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Radnik.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Sef.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Sef.h" i možemo pozivati metode iz klase "Radnik.h";
+U okviru zadatka nam se traži jos jedna klasa i HEADER fajl pod nazivom "Firma.h" koja nije izvedena iz ostalih klasa ali može koristiti njihove elemente;
+Čim imamo kreiranu još jednu klasu, automatski moramo imati i odgovarajuci CPP fajl sa nazivom "Firma.cpp" gde definišemo šta obavljaju prethodno deklarisane metode i konstruktori;
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
