@@ -1,0 +1,27 @@
+1. Na programskom jeziku C++ kreira klasu Proizvod koja u privatnom delu sadrži sledeće
+atribute:
+• naziv,
+• cena,
+• stački atribut procenat PDV-a.
+U javnom delu klasa sadrži:
+• metode koje postavljaju vrednos svih atributa klase;
+• metode koje vraćaju vrednos svih atributa klase;
+• metodu koja računa i vraća cenu sa PDV-om.
+U funkciji main omogući korisniku da postavi vrednost PDV-a i da unese nekoliko proizvoda
+(najviše 100 proizvoda) sa standardnog ulaza. Zam izračuna i prikaza ukupnu cenu svih
+proizvoda.
+
+2. Na programskom jeziku C++ kreira klasu Vozilo koja u privatnom delu sadrži sledeće
+atribute:
+• naziv;
+• maksimalnu brzinu vozila;
+i sledeće stačke atribute:
+• ograničenje brzine na putu u naselju;
+• ograničenje brzine na putu van naselja;
+• ograničenje brzine na autoputu.
+U javnom delu klasa sadrži:
+• metode koje postavljaju vrednos svih atributa klase;
+• metode koje vraćaju vrednos svih atributa klase;
+• metodu koja računa i vraća ukupno vreme koje vozilo mora da provede na putu.
+U funkciji main postavi ograničenja brzine na različim vrstama puta, kreira 2 vozila i
+prikaza za koje vreme ona pređu 10km u naselju, 30km van naselja i 100km na autoputu. 
