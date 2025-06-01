@@ -1,0 +1,68 @@
+1. Na programskom jeziku C++ kreirati klasu FudbalskiKlub koja sadrži:
+• privatne atribute:
+– naziv kluba (čuva se u dinamičkoj zoni memorije),
+– niz rezultata tog kluba (rezultati su celobrojni podaci, za pobedu se upisuje 3,
+nerešen rezultat 1 i za poraz 0 bodova, a niz čuvati u dinamičkoj zoni
+memorije),
+– maksimalni broj rezultata (tj. maksimalni mogući broj elemenata niza),
+– trenutni broj rezultata u nizu;
+• javne metode:
+– konstruktor koji postavlja sve atribute klase,
+– podrazumevani konstruktor,
+– konstruktor za kopiranje,
+– destruktor,
+– inline metodu koja računa i vraća ukupuan broj bodova koje je klub osvojio,
+– funkciju za prikaz svih podataka o klubu na standardni izlaz.
+U funkciji main kreirati jedan objekat klase FudbalskiKlub (vrednosti atributa zadati
+direktno u main funkciji bez unosa sa standardnog ulaza). Napraviti kopiju tog
+fudbalskog kluba i prikazati podatke o kopiji na standardni izlaz. 
+
+2. Na programskom jeziku C++ kreirati klasu Radnik koja sadrži:
+• privatne atribute:
+– ime radnika (čuva se u dinamičkoj zoni memorije),
+– prezime radnika (čuva se u dinamičkoj zoni memorije),
+– niz broja radnih sati radnika u nekom mesecu (niz se čuva u dinamičkoj zoni
+memorije, element niza je ostvareni broj radnih sati radnika u toku jednog
+dana)
+– maksimalni broj radnih dana (tj. maksimalni mogući broj elemenata niza),
+– trenutni broj radnih dana u nizu;
+• javni statički atribut:
+– iznos zarade po radnom satu (realni broj);
+• javne metode:
+– konstruktor koji postavlja sve atribute klase,
+– podrazumevani konstruktor,
+– konstruktor za kopiranje,
+– destruktor,
+– metodu za prikaz svih podataka o radniku na standardni izlaz,
+– metodu koja računa i vraća ukupnu zaradu radnika.
+U funkciji main kreirati jedan objekat klase Radnik (vrednosti atributa zadati direktno
+u main funkciji bez unosa sa standardnog ulaza). Napraviti kopiju tog radnika i
+prikazati podatke o kopiji na standardnom izlazu.
+
+3. Na programskom jeziku C++ kreirati klasu Slika koja sadrži:
+• privatne atribute:
+– niz R komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati
+u dinamičkoj zoni memorije),
+– niz G komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati
+u dinamičkoj zoni memorije)
+– niz B komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati
+u dinamičkoj zoni memorije),
+– maksimalni broj boja (piksela) (tj. maksimalni mogući broj elemenata niza,
+smatrati da sva tri niza imaju isti kapacitet),
+– trenutni broj boja (piksela) (smatrati da sva tri niza imaju isti trenutni broj
+elemenata);
+• javne metode za:
+– konstruktor koji postavlja sve atribute klase,
+– podrazumevani konstruktor,
+– konstruktor za kopiranje,
+– destruktor,
+– nalaženje srednje vrednosti za svaku od komponenti boja na slici (naći srednju
+vrednost za svaku od nizova posebno),
+– konvertovanje u nijansu sive (pri čemu se intenzitet odgovarajuće nijanse sive
+boje računa po obrascu 0.3 * R_srednje + 0.59 * G_srednje + 0.11 * B_srednje)
+– prikaz podataka o slici na standardnom izlazu (prikazati srednje vrednosti za
+svaku od komponenti i vrednost za nijansu sive, ne prikazivati elemente
+nizova).
+U funkciji main kreirati jedan objekat klase Slika (vrednosti atributa zadati direktno u
+main funkciji bez unosa sa standardnog ulaza). Napraviti kopiju te slike i prikazati
+podatke o kopiji na standardnom izlazu. 
