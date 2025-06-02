@@ -1,0 +1,5 @@
+Prvo se kreira HEADER fajl "Film.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Film.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Film.h";
+Kreiramo HEADER fajl "CrtaniFilm.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Film.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "CrtaniFilm.cpp" u kojem definišemo sve neophodne vrednosti iz klase "CrtaniFilm.h" i možemo pozivati metode iz klase "Film.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
