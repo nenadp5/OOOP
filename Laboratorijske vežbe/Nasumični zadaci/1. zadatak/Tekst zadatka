@@ -1,0 +1,24 @@
+ Na programskom jeziku C++ kreirati klasu Film za predstavljanje projekcije filma u 
+bioskopu koja sadrži:
+ • u zaštićenom delu atribute:
+ – naslov filma (čuva se u dinamičkoj zoni memorije),
+ – ukupan broj gledalaca u sali,
+ – cena karte;
+ • u javnom delu:
+ – konstruktor koji postavlja sve atribute klase,
+ – podrazumevani konstruktor,
+ – virtuelni destruktor,
+ – virtuelnu metodu koja računa i vraća ukupan prihod od projekcije,
+ – čistu virtuelnu metodu za prikaz svih podataka o filmu na standardni izlaz. 
+Zatim kreirati klasu CrtaniFilm javno izvedenu iz klase Film koja sadrži:
+ • u privatnom delu atribute:
+ – broj dece u sali,
+ – popust cene karte za decu u odnosu na osnovnu cenu karte;
+ • u javnom delu:
+ – podrazumevani konstruktor,
+ – konstruktor koji postavlja vrednosti svih atributa (uključujući i atribute za osnovnu klasu),
+ – destruktor,
+ – metodu koja računa i vraća ukupan prihod od projekcije (predefinisati virtuelnu metodu iz osnovne klase),
+ – metodu za prikaz podataka o crtanom filmu na standardni izlaz (predefinisati čistu virtuelnu metodu iz osnovne klase). 
+U funkciji main, kreirati niz od 4 pokazivača na filmove. Na parnim indeksima u nizu  upisati filmove, a na neparnim crtane filmove. 
+Prikazati sve elemente niza na standardnom izlazu. 
