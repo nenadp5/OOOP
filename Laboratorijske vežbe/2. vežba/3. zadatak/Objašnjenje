@@ -1,0 +1,3 @@
+Prvo se kreira i programira fajl "Slika.h" koji predstavlja Header fajl, gde se nalaze svi podaci o traženoj klasi, kao što su konstruktor, destruktor, metode i atributi;
+Nakon toga se kreira i programira fajl "Slika.cpp", koji predstavlja klasičan C++ fajl, gde se definiše šta obavljaju tražene metode;
+Kao završni fajl u ovom slučaju je "Main.cpp" gde se obavljaju sve operacije koje su tražene u okviru zadatka.
