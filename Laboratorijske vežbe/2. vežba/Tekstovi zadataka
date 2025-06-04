@@ -1,0 +1,69 @@
+Zadatak 1. Na programskom jeziku C++ kreirati klasu FudbalskiKlub koja sadrži:
+ • privatne atribute:
+ – naziv kluba (čuva se u dinamičkoj zoni memorije), 
+ – niz rezultata tog kluba (rezultati su celobrojni podaci, za pobedu se upisuje 3, nerešen rezultat 1 i za poraz 0 bodova, a niz čuvati u dinamičkoj zoni memorije),
+ – maksimalni broj rezultata (tj. maksimalni mogući broj elemenata niza), 
+ – trenutni broj rezultata u nizu;
+ • javne metode: 
+ – konstruktor koji postavlja sve atribute klase,
+ – podrazumevani konstruktor,
+ – destruktor,
+ – inline metodu koja računa i vraća ukupan broj bodova koje je klub osvojio,
+ – operator = za dodelu vrednosti drugom objektu tipa FudbalskiKlub,
+ – operator += koji dodaje novi rezultat sa utakmice u niz (za pobedu se upisuje 3, nerešen rezultat 1 i za poraz 0 bodova),
+ – operator < koji poredi tekući objekat i drugi prosleđeni fudbalski klub po ukupnom broju bodova. 
+Definisati i sledeće prijateljske operatorske funkcije klasi FudbalskiKlub:
+– funkciju << za prikaz podataka o fudbalskom klubu na standardni izlaz, 
+– funkciju >> za unos podataka o fudbalskom klubu sa standardnog ulaza. 
+U funkciji main kreirati dva objekta klase FudbalskiKlub i uneti podatke o njima sa
+ standardnog ulaza. Svakom od fudbalskih klubova korišćenjem operatora += dodati
+ podatke sa po 3 utakmice. Na standardnom izlazu prikazati podatke o klubu koji ima
+ više bodova.
+
+ Zadatak 2. Na programskom jeziku C++ kreirati klasu Radnik koja sadrži:
+ • privatne atribute:
+ – ime radnika (čuva se u dinamičkoj zoni memorije), 
+ – prezime radnika (čuva se u dinamičkoj zoni memorije), 
+ – niz broja radnih sati radnika u nekom mesecu (niz se čuva u dinamičkoj zoni memorije, element niza je ostvareni broj radnih sati radnika u toku jednog dana)
+ – maksimalni broj radnih dana (tj. maksimalni mogući broj elemenata niza),
+ – trenutni broj radnih dana u nizu;
+ – iznos zarade po radnom satu (realni broj); 
+• javne metode:
+– konstruktor koji postavlja sve atribute klase,
+– podrazumevani konstruktor,
+– konstruktor za kopiranje,
+– destruktor,
+– metodu koja računa i vraća ukupnu zaradu radnika,
+– operator = za dodelu vrednosti drugom objektu tipa Radnik,
+– postfiksni ++ operator koji povećava zaradu po radnom satu za 100 dinara,
+– prefiksni -- operator koji smanjuje zaradu po radnom satu za 100 dinara, 
+– operator += koji dodaju radni sati za novi radni dan u niz. 
+Definisati i sledeće prijateljske operatorske funkcije klasi Radnik:
+– operator > koji poredi dva prosleđena radnika po ukupnoj zaradi,
+– funkciju << za prikaz podataka o radniku na standardni izlaz,
+– funkciju >> za unos podataka o radniku sa standardnog ulaza. 
+U funkciji main kreirati niz pokazivača na 5 objekata klase Radnik (vrednosti atributa zadati direktno u main funkciji bez unosa sa standardnog ulaza). Svim radnicima
+ inkrementirati zaradu po satu. Sortirati radnike u opadajući niz po iznosu ukupne zarade. Na standardnom izlazu prikazati podatke o svim radnicima u nizu. 
+
+ Zadatak 3. Na programskom jeziku C++ kreirati klasu Slika koja sadrži:
+ • privatne atribute:
+ – niz R komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati u dinamičkoj zoni memorije),
+ – niz G komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati u dinamičkoj zoni memorije),
+ – niz B komponenti boje koje mogu uzimati vrednosti iz opsega 0-255 (niz čuvati u dinamičkoj zoni memorije),
+ – maksimalni broj boja (piksela) (tj. maksimalni mogući broj elemenata niza, smatrati da sva tri niza imaju isti kapacitet),
+ – trenutni broj boja (piksela) (smatrati da sva tri niza imaju isti trenutni broj elemenata);
+ • javne metode za:
+ – konstruktor koji postavlja sve atribute klase,
+ – podrazumevani konstruktor,
+ – konstruktor za kopiranje,
+ – destruktor, 
+ – nalaženje srednje vrednosti za svaku od komponenti boja na slici (naći srednju vrednost za svaku od nizova posebno),
+ – konvertovanje u nijansu sive (pri čemu se intenzitet odgovarajuće nijanse sive boje računa po obrascu 0.3 * R_srednje + 0.59 * G_srednje + 0.11 * B_srednje),
+ – operator = za dodelu vrednosti drugom objektu tipa Slika,
+ – prefiksni ++ operator koji povećava sve elemente sva tri niza za po 1,
+ – postfiksni -- operator koji smanjuje sve elemente sva tri niza za po 1, 
+ – operator + koji vraća novu sliku kao zbir tekućeg objekta i druge prosleđene slike (sabiraju se odgovarajuće komponente u svakom od nizova kao kod npr. sabiranja vektora).
+ Definisati i sledeće prijateljske operatorske funkcije klasi Slika:
+ – funkciju << za prikaz podataka o slici na standardni izlaz (prikazati srednje vrednosti za svaku od komponenti i vrednost za nijansu sive, ne prikazivati elemente nizova). 
+U funkciji main kreirati dva objekta klase Slika (vrednosti atributa zadati direktno u main funkciji bez unosa sa standardnog ulaza).
+Izračunati njihov zbir i prikazati podatke o zbiru na standardnom izlazu. 
