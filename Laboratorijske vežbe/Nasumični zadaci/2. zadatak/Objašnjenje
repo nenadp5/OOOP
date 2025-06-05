@@ -1,0 +1,5 @@
+Prvo se kreira HEADER fajl "Ispit.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Ispit.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Ispit.h";
+Kreiramo HEADER fajl "StrucniIspit.h" gde formiramo istoimenu klasu koja je izvedena iz klase "Ispit.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "StrucniIspit.cpp" u kojem definišemo sve neophodne vrednosti iz klase "StrucniIspit.h" i možemo pozivati metode iz klase "Ispit.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
