@@ -1,0 +1,43 @@
+Zadatak 1.  Na programskom jeziku C++ definisati:
+ • Klasu Pravougaonik koja sadrži:– u zaštićenom delu:
+ • atribute dužinu stranica a i b,– u javnom delu:
+ • podrazumevani konstruktor,
+ • konstruktor koji postavlja vrednost stranica,
+ • virtuelnu funkciju za određivanje površine pravougaonika,
+ • virtuelnu funkciju za prikaz podataka o pravougaoniku na standardni izlaz.
+ • Klasu Kvadar javno izvedenu iz klase Pravougaonik koja sadrži:– u privatnom delu:
+ • atribut visinu kvadra,– u javnom delu:
+ • podrazumevani konstruktor,
+ • konstruktor koji postavlja vrednost visine,
+ • funkciju za određivanje površine kvadra (predefinisati virtuelnu funkciju iz
+ osnovne klase),
+ • funkciju za određivanje zapremine kvadra,
+ • funkciju za prikaz podataka o kvadru na standardni izlaz (predefinisati
+ virtuelnu funkciju iz osnovne klase).
+ U funkciji main, kreirati niz od 6 pokazivača na pravougaonike. Na parnim indeksima
+ u nizu upisati pravougaonike, a na neparnim kvadre. Prikazati sve elemente niza na
+ standardnom izlazu. 
+
+ Zadatak 2.  Na programskom jeziku C++ definisati:
+ • Klasu Radnik koja sadrži:– u zaštićenom delu atribute:
+ • ime radnika (čuvati u dinamičkoj zoni memorije),
+ • cena radnog sata,
+ • broj radnih sati;– u javnom delu:
+ • podrazumevani konstruktor,
+ • konstruktor koji postavlja vrednost svih atributa,
+ • virtuelni destruktor,
+ • virtuelnu funkciju za određivanje plate radnika,
+ • virtuelnu funkciju za prikaz podataka o radniku na standardni izlaz.
+ • Klasu NagrađeniRadnik izvedenu iz klase Radnik koja sadrži:– u privatnom delu atribut:
+ • bonus,– u javnom delu:
+ • podrazumevani konstruktor,
+ • konstruktor koji postavlja vrednost atributa,
+ • destruktor,
+ • predefinisanu funkciju za određivanje plate koja dodaje bonus osnovnoj
+ plati,
+ • funkciju za prikaz podataka o nagrađenom radniku na standardni izlaz
+ (prikazuje platu radnika sa bonusom).
+ U funkciji main, kreirati niz od 4 pokazivača na radnike. Na parnim indeksima u nizu
+ upisati nagrađivane radnike, a na neparnim radnike. Prikazati niz radnika na
+ standardni izlaz. 
+ 
