@@ -1,0 +1,22 @@
+Na programskom jeziku C++ kreirati klasu Ispit koja sadrži:
+ • u zaštićenom delu atribute:
+ – naziv predmeta (čuva se u dinamičkoj zoni memorije),
+ – broj poena studenta na pismenom ispitu,
+ – broj poena studenta na usmenom ispitu; 
+• u javnom delu: 
+– konstruktor koji postavlja sve atribute klase,
+– podrazumevani konstruktor,
+– virtuelni destruktor,
+– virtuelnu metodu koja računa i vraća ocenu studenta na ispitu, ocena se računa kao (pismeni + usmeni) / 10,
+– čistu virtuelnu metodu za prikaz svih podataka o programeru na standardni izlaz. 
+Zatim kreirati klasu StrucniIspit javno izvedenu iz klase Ispit koja sadrži:
+ • u privatnom delu atribute:
+ – ukupan broj poena studenta na laboratorijskim vežbama;
+ • u javnom delu: 
+ – podrazumevani konstruktor,
+ – konstruktor koji postavlja vrednosti svih atributa (uključujući i atribute za osnovnu klasu),
+ – destruktor,
+ – metodu koja računa i vraća ocenu studenta na ispitu, , ocena se računa kao (lab_vezbe + pismeni + usmeni) / 10 (predefinisati virtuelnu metodu iz osnovne klase), 
+ – metodu za prikaz podataka stručnom ispitu na standardni izlaz (predefinisati čistu virtuelnu metodu iz osnovne klase). 
+U funkciji main, kreirati niz od 4 pokazivača na ispite. Na parnim indeksima u nizu upisati ispite, a na neparnim stručne ispite. Prikazati sve elemente niza na 
+standardnom izlazu. 
