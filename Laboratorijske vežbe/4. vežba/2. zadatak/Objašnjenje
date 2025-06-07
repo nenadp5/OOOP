@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "Radnik.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Radnik.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Radnik.h";
+Kreiramo HEADER fajl "StalniRadnik.h" gde formiramo klasu "StalniRadnik" koja je izvedena iz klase "Radnik.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "StalniRadnik.cpp" u kojem definišemo sve neophodne vrednosti iz klase "StalniRadnik.h" i možemo pozivati metode iz klase "Radnik.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "HonorarniRadnik.h", gde je prisutna klasa "HonorarniRadnik" koja je izvedena iz klase "Radnik.h". U klasi "HonorarniRadnik" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "HonorarniRadnik.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "Radnik.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
