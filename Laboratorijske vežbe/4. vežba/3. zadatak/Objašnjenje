@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "Putovanje.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "Putovanje.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "Putovanje.h";
+Kreiramo HEADER fajl "Letovanje.h" gde formiramo klasu "Letovanje" koja je izvedena iz klase "Putovanje.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Letovanje.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Letovanje.h" i možemo pozivati metode iz klase "Putovanje.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "Zimovanje.h", gde je prisutna klasa "Zimovanje" koja je izvedena iz klase "Putovanje.h". U klasi "Zimovanje" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "Zimovanje.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "Putovanje.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
