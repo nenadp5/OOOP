@@ -1,0 +1,60 @@
+Zadatak 1.  Na programskom jeziku C++ definisati:
+ • Apstraktnu klasu GeometrijskoTelo koja sadrži:
+ – javnu čisto virtualnu funkciju za određivanje površine geometrijskog tela,
+ – javnu čisto virtualnu funkciju za određivanje zapremine geometrijskog tela,
+ – javnu čisto virtualnu funkciju za prikaz podataka o geometrijskom telu na standardni izlaz,
+ – operatorsku funkciju članicu klase > za poređenje dva geometrijska tela po zapremini. 
+• Klasu Kocka javno izvedenu iz klase GeometrijskoTelo koja sadrži:
+– privatni atribut veličinu stranice,
+– javni konstruktor za postavljanje veličine stranice. 
+• Klasu Piramida javno izvedenu iz klase GeometrijskoTelo koja sadrži:
+– privatni atribut veličinu stranice (kvadratna osnova),
+– privatni atribut visinu piramide,
+– javni konstruktor za postavljanje ovih atributa. 
+U funkciji main, kreirati niz od 5 pokazivača na geometrijska tela. Na parnim
+ indeksima u nizu upisati piramide, a na neparnim kocke. Prikazati sve elemente niza
+ na standardnom izlazu. Pronaći najveći element niza i prikazati ga na standardnom
+ izlazu.
+
+  Zadatak 2.  Na programskom jeziku C++ definisati:
+ • Apstraktnu klasu Radnik koja sadrži:
+ – zaštićeni atribut ime (čuvati u dinamičkoj zoni memorije),
+ – zaštićeni atribut prezime (čuvati u dinamičkoj zoni memorije),
+ – zaštićenu čisto virtuelnu funkciju koja računa i vraća platu radnika,
+ – javni konstruktor koji postavlja sve atribute,
+ – operatorsku funkciju članicu klase > za poređenje dva radnika po plati,
+ – virtuelni destruktor,
+ – javnu čisto virtuelnu funkciju za prikaz podataka o radniku na standardni izlaz. 
+• Klasu StalniRadnik javno izvedenu iz klase Radnik koja sadrži:
+– privatni atribut plata,
+– privatni atribut bonus,
+– javni konstruktor za postavljanje svih atributa. 
+• Klasu HonorarniRadnik javno izvedenu iz klase Radnik koja sadrži:
+– privatni atribut broj sati,
+– privatni atribut cena radnog sata,
+– javni konstruktor za postavljanje ovih atributa. 
+U funkciji main, kreirati niz od 5 pokazivača na radnike. Na parnim indeksima u nizu
+ upisati honorarne, a na neparnim stalne radnike. Prikazati sve elemente niza na
+ standardnom izlazu.
+
+  Zadatak 3.  Na programskom jeziku C++ definisati:
+ • Apstraktnu klasu Putovanje koja sadrži:
+ – zaštićeni atribut naziv destinacije,
+ – zaštićeni atribut trajanje putovanja u danima,
+ – zaštićeni atribut cena smeštaja po danu,
+ – zaštićeni atribut cena prevoza,
+ – javni konstruktor koji postavlja vrednosti atributa,
+ – zaštićenu čistu virtuelnu funkciju koja računa i vraća ukupnu cenu putovanja,
+ – javnu čisto virtualnu funkciju za prikaz podataka o putovanju na standardni izlaz,
+ – operatorsku funkciju članicu klase < za poređenje dva putovanja po ceni. 
+• Klasu Letovanje javno izvedenu iz klase Putovanje koja sadrži:
+– privatni atribut cena trajekta,
+– javni konstruktor za postavljanje svih atributa,
+– ukupna cena letovanja se računa kao trajanjePutovanja * cenaSmeštajaPoDanu + cenaPrevoza + cenaTrajekta.
+ • Klasu Zimovanje javno izvedenu iz klase Putovanje koja sadrži:
+ – privatni atribut cenu ski karte,
+ – javni konstruktor za postavljanje ovih atributa,
+ – ukupna cena zimovanja se računa  kao trajanjePutovanja * cenaSmeštajaPoDanu + cenaPrevoza + cenaSkiKarte.
+ U funkciji main, kreirati niz od 6 pokazivača na putovanja. Na parnim indeksima u
+ nizu upisati letovanja, a na neparnim zimovanja. Prikazati niz putovanja na
+ standardnom izlazu. Sortirati niz putovanja po ceni rastuće.
