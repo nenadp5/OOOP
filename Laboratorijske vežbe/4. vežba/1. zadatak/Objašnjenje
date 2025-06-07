@@ -1,0 +1,7 @@
+Prvo se kreira HEADER fajl "GeometrijskoTelo.h" gde uvodimo sve neophodne atribute, metode i konstruktore;
+Nakon toga kreiramo CPP fajl "GeometrijskoTelo.cpp" gde definišemo šta obavljaju metode i konstruktori iz prethodno definisane klase "GeometrijskoTelo.h";
+Kreiramo HEADER fajl "Kocka.h" gde formiramo klasu "Kocka" koja je izvedena iz klase "GeometrijskoTelo.h", tu takođe uvodimo neophodne atribute, metode i konstruktore;
+Potom kreiramo CPP fajl "Kocka.cpp" u kojem definišemo sve neophodne vrednosti iz klase "Kocka.h" i možemo pozivati metode iz klase "GeometrijskoTelo.h";
+U tekstu zadatka nam je tražena i treća klasa, pa shodno tome kreiramo još jedan HEADER fajl "Piramida.h", gde je prisutna klasa "Piramida" koja je izvedena iz klase "GeometrijskoTelo.h". U klasi "Piramida" takođe definišemo sve neophodne elemente;
+Čim imamo kreiranu još jednu klasu, onda moramo imati kreiran i jos jedan CPP fajl pod nazivom "Piramida.cpp" gde definišemo šta obavljaju prethodno definisane metode i konstruktori iz njene klase, takođe možemo pozivati i metode iz klase "GeometrijskoTelo.h";
+Na kraju kreiramo glavni CPP fajl, odnosno "Main.cpp" gde kombinujemo sve operacije iz svih klasa.
