@@ -1,0 +1,13 @@
+Prvo smo kreirali fajl "Lekar.h" koji predstavlja HEADER fajl, gde uvodimo sve neophodne atribute, metode, konstruktore i destruktore za tu klasu;
+Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Klinika.h" u koji uvodimo i fajl "Radnik.h" uz dodatne metode, konstruktore, destruktore i atribute;
+Potom kreiramo CPP fajl "Lekar.cpp" gde definišemo sve elemente iz klase "Lekar.h";
+Onda sledi kreiranje CPP fajla "Klinika.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Klinika.h", u okviru ovog fajla možemo pozivati i metode iz klase "Lekar.h";
+Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
+Bitno je napomenuti, da tekstualne i binarne fajlove trebamo imati već unapred kreirane! Takodje moraju da nose naziv koji je prisutan i namenjen za njih u okviru "Main.cpp" fajla!
+
+Sadržaj tekstualnog fajla:
+Zdravlje
+3
+Milica 99000 234
+Jana 99800 321
+Nikola 89345 145
