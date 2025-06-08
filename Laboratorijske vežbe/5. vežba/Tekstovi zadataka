@@ -1,0 +1,54 @@
+ Zadatak 1.  Na programskom jeziku C++ definisati:
+ • Klasu Proizvod koja sadrži sledeće atribute:
+ – naziv proizvoda,
+ – cena proizvoda,
+ – kod (celobrojna vrednost).
+ • Klasu Prodavnica koja sadrži sledeće privatne atribute:
+ – naziv prodavnice,
+ – broj proizvoda u prodavnici,
+ – niz proizvoda.
+ • sledeće javne funkcije:
+ – funkciju za snimanje prodavnice u binarnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje prodavnice iz binarnog fajla gde je argument funkcije putanja do fajla,
+ – funkciju za snimanje prodavnice u tekstualnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje prodavnice iz tekstualnog fajla gde je argument funkcije putanja do fajla,
+ – prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.
+ U funkciji main, kreirati jedan objekat tipa Prodavnica, učitati podatke u njega iz unapred pripremljenog tekstualnog fajla i snimiti taj objekat u binarnom fajlu.
+ Kreirati drugi objekat tipa Prodavnica, učitati ga iz istog binarnog fajla i snimiti u novi tekstualni fajl da bi se proverila ispravnost implementiranih funkcija.
+
+  Zadatak 2.  Na programskom jeziku C++ definisati:
+ • Klasu Radnik koja sadrži sledeće atribute:
+ – ime,
+ – prezime,
+ – plata,
+ – JMBG.
+ • Klasu Firma koja sadrži sledeće privatne atribute:
+ – naziv firme,
+ – broj radnika,
+ – niz radnika.
+ • sledeće javne funkcije:
+ – funkciju za snimanje firme u binarnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje firme iz binarnog fajla gde je argument funkcije putanja do fajla,
+ – funkciju za snimanje firme u tekstualnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje firme iz tekstualnog fajla gde je argument funkcije putanja do fajla,
+ – prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.
+ U funkciji main, kreirati jedan objekat tipa Firma, učitati podatke u njega iz unapred pripremljenog tekstualnog fajla i snimiti taj objekat u binarnom fajlu. Kreirati drugi
+ objekat tipa Firma, učitati ga iz istog binarnog fajla i snimiti u novi tekstualni fajl da bi se proverila ispravnost implementiranih funkcija. 
+
+ Zadatak 3.  Na programskom jeziku C++ definisati:
+ • Klasu Lekar koja sadrži sledeće atribute:
+ – ime lekara,
+ – plata lekara,
+ – broj radnih sati.
+ • Klasu Klinika koja sadrži sledeće privatne atribute:
+ – naziv klinike,
+ – broj lekara,
+ – niz lekara.
+ • sledeće javne funkcije:
+ – funkciju za snimanje klinike u binarnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje klinike iz binarnog fajla gde je argument funkcije putanja do fajla,
+ – funkciju za snimanje klinike u tekstualnom fajlu gde je argument funkcije putanja do fajla,
+ – funkciju za učitavanje klinike iz tekstualnog fajla gde je argument funkcije putanja do fajla,
+ – prijateljske operatorske funkcije << i >> za ulaz/izlaz sa prosleđenim tokom podataka.
+ U funkciji main, kreirati jedan objekat tipa Klinika, učitati podatke u njega iz unapred pripremljenog tekstualnog fajla i snimiti taj objekat u binarnom fajlu. Kreirati drugi
+ objekat tipa Klinika, učitati ga iz istog binarnog fajla i snimiti u novi tekstualni fajl da bi se proverila ispravnost implementiranih funkcija.
