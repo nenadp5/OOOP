@@ -1,0 +1,13 @@
+Prvo smo kreirali fajl "Proizvod.h" koji predstavlja HEADER fajl, gde uvodimo sve neophodne atribute, metode, konstruktore i destruktore za tu klasu;
+Nakon toga kreiramo još jedan HEADER fajl pod nazivom "Prodavnica.h" u koji uvodimo i fajl "Proiyvod.h" uz dodatne metode, konstruktore, destruktore i atribute;
+Potom kreiramo CPP fajl "Proizvod.cpp" gde definišemo sve elemente iz klase "Proizvod.h";
+Onda sledi kreiranje CPP fajla "Prodavnica.cpp", kod kojeg se definišu sve metode, konstrukori i destruktori iz klase "Prodavnica.h", u okviru ovog fajla možemo pozivati i metode iz klase "Proizvod.h";
+Nakon zavrsenih svih HEADER i CPP fajlova sledi kreiranje "Main.cpp" fajla gde kombinujemo sve moguce operacije.
+Bitno je napomenuti, da tekstualne i binarne fajlove trebamo imati već unapred kreirane! Takodje moraju da nose naziv koji je prisutan i namenjen za njih u okviru "Main.cpp" fajla!
+
+Sadržaj tekstualnog fajla:
+Maxi
+3
+Jaja 20 12345 
+Mleko 120 54321
+Sir 240 9843
